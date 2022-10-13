@@ -1,5 +1,9 @@
 function data(req, res) {
-  res.status(200).json({ name: 'Eliel' })
+
+  const envNome = process.env.NOME_AMBIENTE;
+
+  res.status(200).json({ nome: envNome })
+  
 }
 
 export default data
