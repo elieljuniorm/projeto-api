@@ -1,18 +1,18 @@
 export const produtos = [
     {
-        "name": "Celular",
-        "url": "url 1"
+        "nome": "Celular",
+        "preco": "1000"
     },
     {
-        "name": "Notebook",
-        "url": "url 2"
+        "nome": "Notebook",
+        "preco": "2000"
     },
     {
-        "name": "Câmera",
-        "url": "url 3"
+        "nome": "Câmera",
+        "preco": "3000"
     },
     {
-        "name": "Cadeira",
-        "url": "url 4"
+        "nome": "Cadeira",
+        "preco": "400"
     },
 ]
