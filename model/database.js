@@ -1,6 +1,7 @@
 //conectando banco
 import { MongoClient } from "mongodb";
 
+//var env para usuario e senha
 const db_user = process.env.DB_USER
 const db_password = process.env.DB_PASSWORD
 
