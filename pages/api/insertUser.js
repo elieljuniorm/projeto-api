@@ -7,7 +7,8 @@ export default async function handler(req, res) {
 
     const user = {
         name: req.body.name,
-        password: req.body.password
+        password: req.body.password,
+        email: req.body.email,
     }
 
     //retorna o dado do banco com base na pesquisa da const user
