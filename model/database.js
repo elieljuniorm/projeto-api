@@ -1,9 +1,10 @@
 //conectando banco
 import { MongoClient } from "mongodb";
 
-const database_url = process.env.DATABASE_URL
+const db_user = process.env.DB_USER
+const db_password = process.env.DB_PASSWORD
 
-const client = new MongoClient(database_url, {
+const client = new MongoClient(`mongodb+srv://${db_user}:${db_password}@cluster0.dck2iwv.mongodb.net/?retryWrites=true&w=majority`, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
