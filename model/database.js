@@ -1,3 +1,4 @@
+//conectando banco
 import { MongoClient } from "mongodb";
 
 const database_url = process.env.DATABASE_URL
