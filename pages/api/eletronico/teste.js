@@ -1,3 +1,0 @@
-export default function teste(req, res) {
-    res.status(200).json({ msg: 'Bem vindo a API!' })
-}
