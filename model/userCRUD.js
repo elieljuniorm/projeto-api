@@ -12,7 +12,14 @@ export default async function login(name, password) {
         password: password,
     }
 
-    const response = await db.collection("users").findOne(user)
+    //Restira a senha da resposta
+    const opcoes = {
+        projection: {
+            password: false
+        }
+    }
+
+    const response = await db.collection("users").findOne(user, opcoes)
 
     return response
 }
