@@ -1,4 +1,4 @@
-import login from "../../../model/userCRUD"
+import login from "../../model/userCRUD"
 
 export default async function userLogin(req, res) {
 
