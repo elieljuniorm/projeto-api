@@ -3,7 +3,7 @@ import connect from '../../model/database';
 
 export default async function handler(req, res) {
 
-    if (req.method === 'POST') {
+    if (req.method === 'GET') {
 
         const { db } = await connect()
 
